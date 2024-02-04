@@ -1,5 +1,5 @@
 
-"use strict"; // Is a more restrictive mode in which we run JS
+"use strict"; // Is a more restrictive mode in which we run JS. It is beneficial in cases which might create some issues, so it restricts them
 
 var teacher = "abhishek";
 function fun(){
