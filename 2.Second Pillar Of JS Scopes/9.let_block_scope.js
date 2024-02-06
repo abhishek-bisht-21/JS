@@ -17,4 +17,4 @@ console.log(teacher);
 //console.log(content);
 
 // TDX -> The region before the declaration of a variable in a block scope made by let is called as TDZ.
-// You cannot access a variable which is having a block scope before it has been declared
+// You cannot access a variable which is having a block scope before it has been declared 
