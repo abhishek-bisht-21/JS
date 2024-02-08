@@ -2,11 +2,11 @@ function fun(){   // function declaration -> starts with the keyword function
 	// some impl
 }
 
-let f = function gun(){ // function expression
+let f = function gun(){ // named function expression
 	// some impl
 }
 
-let a = function(){ // function expression
+let a = function(){ // anonymous function expression
 	// okk some more impl
 }
 
