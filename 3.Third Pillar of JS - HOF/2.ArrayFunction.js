@@ -46,3 +46,9 @@ console.log("Array cubeArr: ", cubeArr); // [1,8,27,64,125]
 console.log("Array evenOddArr: ", evenOddArr); //['Odd', 'Even', 'Odd', 'Even', 'Odd']
 
 
+/**
+ * When to use a map?
+ * In any situation when we have to do an operation on every element of the array and store the result of each operation
+ * Map can be a good option.
+ * 
+ */
