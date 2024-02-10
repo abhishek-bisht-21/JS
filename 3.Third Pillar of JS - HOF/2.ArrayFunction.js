@@ -27,13 +27,22 @@ function cube(el){
 	return el*el*el;
 }
 
+function isEvenOdd(x){
+	if(x%2 == 0){
+		return "Even";
+	}else{
+		return "Odd";
+	}
+}
+
 const arr = [1,2,3,4,5]; // original
 
 const res = arr.map(square); // sqaure is function passed as an argument
 const cubeArr = arr.map(cube);
+const evenOddArr = arr.map(isEvenOdd);
 console.log("Array arr: ", arr);
 console.log("Array res: ", res); // [1,4,9,16,25]
 console.log("Array cubeArr: ", cubeArr); // [1,8,27,64,125]
-
+console.log("Array evenOddArr: ", evenOddArr); //['Odd', 'Even', 'Odd', 'Even', 'Odd']
 
 
