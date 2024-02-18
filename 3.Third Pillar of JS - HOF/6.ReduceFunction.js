@@ -14,3 +14,13 @@ function sum(prevResult, currValue){
 
 const result = arr.reduce(sum);
 console.log(result); // 21
+
+function addPrices(prevResult, currValue){
+	console.log("prevResult: " + prevResult.price + " currValue: " + currValue.price);
+	let newPrice = prevResult.price + currValue.price;
+	return {price: newPrice};
+}
+
+let cart = [{price: 100000, name: "iPhone"}, {price: 50000, name: "backcover"}, {price: 2000, name: "tempered glass"}];
+const totalPrice = cart.reduce(addPrices);
+console.log(totalPrice.price);
