@@ -1,7 +1,7 @@
 /**
  * Functions native to js is given higher priority.
  * Event loop Responsibility: Monitor if no global piece of code is left and call stack is empty.
- * When Above 2 criterias are met Event queue functions are executed
+ * When Above 2 criterias are met Event queue functions are moved to callStack and then they are executed
  * timeConsumingFeature not native to JS are given to run time to be executed.
  */
 
