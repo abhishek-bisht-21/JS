@@ -26,6 +26,13 @@ const p = createPromiseWithTimer();
 console.log("We are now waiting for the promise to complete");
 console.log("currently my promise object is like ....", p);
 p.then(
-	function fullfilHandler(value){console.log("Inside fulfill handler with value", value);}, 
-	function rejectionHandler(value){console.log("Inside rejection handler with value", value);}
+	function fullfilHandler(value) {
+		console.log("Inside fulfill handler with value", value);
+		console.log("Promise after fulfillment is ", p);
+
+	},
+	function rejectionHandler(value) {
+		console.log("Inside rejection handler with value", value);
+		console.log("Promise after rejection is ", p);
+	}
 )
