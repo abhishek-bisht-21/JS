@@ -1,7 +1,7 @@
 function createPromise() {
 	return new Promise(function exec(resolve, reject) {
 		console.log("Resolving the promise");
-		resolve("Done");
+		resolve("Done"); // Immediately Resolved promise
 	});
 }
 
