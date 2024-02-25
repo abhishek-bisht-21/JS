@@ -17,8 +17,8 @@ console.log("endingg.....") // fulfillment or rejection handlers are not execute
 
 /**
  * Output:
- * Resolving the promise
-   endingg.....
+ *  Resolving the promise
+    endingg.....
     We Fulfilled with a value Done
     Timer completed
  * 
