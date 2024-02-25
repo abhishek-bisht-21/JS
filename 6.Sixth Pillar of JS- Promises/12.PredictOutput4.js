@@ -16,6 +16,7 @@ let x = Promise.resolve("Abhishek's promise1");
 x.then(function processPromise(value){
 	console.log("Whose's promise ? ", value);
 	blockingForLoop();
+	console.log("Promise1 completed");
 })
 
 let y = Promise.resolve("Abhishek's promise2");
@@ -41,9 +42,11 @@ console.log("end of the file.");
 start of the file
 end of the file.
 Whose's promise ?  Abhishek's promise1
+Promise1 completed
 Whose's promise ?  Abhishek's promise2
 Whose's promise ?  Abhishek's promise3
 timer1 is done
 timer2 is done
+ok done
 ok done
  */
