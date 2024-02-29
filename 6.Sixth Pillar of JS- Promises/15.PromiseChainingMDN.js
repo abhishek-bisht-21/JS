@@ -6,7 +6,7 @@ Promise.resolve("foo")
         setTimeout(() => {
           string += "bar";
           resolve(string);
-        }, 1);
+        }, 10000);
       }),
   )
   // 2. receive "foobar", register a callback function to work on that string
