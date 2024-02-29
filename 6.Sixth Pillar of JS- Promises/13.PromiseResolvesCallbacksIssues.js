@@ -28,7 +28,8 @@ function download(url) {
 		console.log("Promise: Started downloading from url", url);
 		setTimeout(function () {
 		console.log("Promise: Completed downloading after 5s");
-		res("ABCDEF");	
+		const content = "ABCDEF";
+		res(content);	
 		}, 5000);
 	})
 }
