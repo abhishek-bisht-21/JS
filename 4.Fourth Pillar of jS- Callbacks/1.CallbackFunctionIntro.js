@@ -4,7 +4,7 @@
  * fn -> function 
  */
 
-function fun(x, fun){
+function fum(x, fun){
 	for(let i=0;i<x;i++){
 		console.log(i);
 	}
@@ -12,6 +12,6 @@ function fun(x, fun){
 	fun();
 }
 
-fun(10, function exec() { // callback
+fum(10, function exec() { // callback
 	console.log("I am also executed");
 });
