@@ -51,6 +51,7 @@ function upload(url, file, cb){
 // 	console.log("file written with name", name);
 // })
 
+// Callback Hell and Inversion of Control exists over here.
 download("www.xyz.com", function processDwonload(content){
 	console.log("We are now going to process the downloaded data");
 	writeFile(content, function processWriteFile(filename){
