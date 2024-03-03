@@ -16,6 +16,12 @@ console.log("third time calling res", res()); //3
 
 
 /**
+ * Remembering Lexical Scope Means:
+ * Remembering the variables, values and all the memories, that were associated to you
+ * Even if you are executing outside of your enclosing scope.
+ */
+
+/**
  * When parsing goes on we know that 'i' is coming from the scope of scope of cuntion process.
  * Due to Closure property 'i' is accesible to innerProcess function even though prcoess function is
  * no longer in the CallStack. Because of Closure it knows the exact memory Location of any variable
